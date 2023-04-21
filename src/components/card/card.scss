@@ -1,0 +1,46 @@
+.card {
+  width: 382px;
+  height: 241px;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: #ffb543;
+
+  &__card-image {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card-number {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  &__card-name-valid-holder {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__cardHolderName {
+    padding: 10px;
+    :first-child {
+      font-size: 15px;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    :last-child {
+      font-size: 18px;
+    }
+  }
+  &__cardValidThru {
+    padding: 10px;
+
+    :first-child {
+      font-size: 15px;
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    :last-child {
+      font-size: 18px;
+    }
+  }
+}

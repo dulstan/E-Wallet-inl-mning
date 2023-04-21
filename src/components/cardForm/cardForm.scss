@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
+  gap: 10px;
+  padding: 10px;
+  
+
+  &__input {
+    height: 50px;
+    font-size: larger;
+    font-weight: 400;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 1px;
+  padding: 10px;
+
+  }
+  &__valid-ccv-container {
+    display: flex;
+  }
+  &__valid-input {
+    height: 50px;
+    border-radius: 5px;
+    border-width: 1px;
+  padding: 10px;
+
+  }
+  &__ccv-input {
+    height: 50px;
+    border-radius: 5px;
+    border-width: 1px;
+  padding:10px;
+  // font-size: 15px;
+
+  }
+  &__options {
+    background-color: rgb(196, 117, 15);
+  }
+  &__button {
+    height: 50px;
+    color: white;
+    font-size: larger;
+    letter-spacing: 2px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+  }
+}
