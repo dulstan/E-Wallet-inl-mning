@@ -82,14 +82,14 @@ export const Home = () => {
                   color: BlackCard ? "white" : "black",
                 }}
               >
-                {activeDiv.activeObject.validThru}
+                VALID THRU
               </p>
               <p
                 style={{
                   color: BlackCard ? "white" : "black",
                 }}
               >
-                {activeDiv.activeObject.ccv}
+                {activeDiv.activeObject.validThru}
               </p>
             </div>
           </div>
